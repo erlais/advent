@@ -27,7 +27,7 @@ for cycle in range(1, 241):
 print(sum(p1))
 
 line = []
-for i, px in enumerate(p2):
+for px in p2:
     line.append(px)
     if len(line) == 40:
         print(''.join(line))
